@@ -1,0 +1,25 @@
+{
+  "name": "to-generator",
+  "version": "1.0.0",
+  "description": "Transforms an Array | Object into a Generator object.",
+  "main": "index.js",
+  "dependencies": {
+    "is-plain-object": "3.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-alessioalex": "1.0.0",
+    "husky": "3.0.4",
+    "standardx": "5.0.0"
+  },
+  "scripts": {
+    "test": "standardx && node test.js",
+    "precommit": "npm run test"
+  },
+  "keywords": ["generator"],
+  "author": "Alexandru Vlăduţu <github@social.alessioalex.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alessioalex/eslint-config-alessioalex.git"
+  }
+}
